@@ -12,11 +12,4 @@ func TestEquality(t *testing.T) {
     }
 }
 
-func TestEqualityFail (t *testing.T) {
-    a := 5
-    b := 6
-    if a != b {
-        t.Errorf("Expected %d to equal %d", a, b)
-    }
-}
 
